@@ -1,17 +1,21 @@
 📌 Customer Churn Prediction
 
 📖 Overview
+
 This project aims to predict customer churn using machine learning techniques. It analyzes customer behavior and identifies key factors influencing churn.
 
 🔍 Problem Statement
+
 Businesses face challenges in retaining customers. Understanding why customers leave (churn) helps in implementing strategies to enhance customer retention.
 
 🛠️ Technologies Used
+
 Python
 Pandas, NumPy
 Scikit-learn
 Matplotlib, Seaborn
 Jupyter Notebook
+
 📂 Project Structure
 bash
 Copy
@@ -26,12 +30,13 @@ Customer_Churn_Prediction/
 │── .gitignore   # Ignore unnecessary files
 📊 Dataset
 The dataset contains customer attributes such as:
-
 Demographics
 Subscription details
 Usage behavior
 Customer support interactions
+
 🏆 Key Features
+
 ✅ Exploratory Data Analysis (EDA)
 ✅ Data Cleaning & Preprocessing
 ✅ Machine Learning Model Training
@@ -39,6 +44,7 @@ Customer support interactions
 ✅ Insights & Recommendations
 
 🚀 How to Run
+
 Clone the repository:
 sh
 Copy

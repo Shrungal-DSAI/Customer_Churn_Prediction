@@ -1,72 +1,48 @@
 # 📊 Customer Churn Prediction
 
-
-
 ## 🚀 Project Overview
-Customer churn is a major concern for businesses. This project aims to predict customer churn using machine learning techniques, helping companies retain valuable customers.
+This project aims to predict customer churn using machine learning techniques. The dataset consists of various customer attributes, such as contract type, tenure, and monthly charges, to determine the likelihood of a customer leaving.
 
-## 📂 Project Structure
-```
-Customer_Churn_Prediction/
-│── data/                 # Dataset folder
-│── notebooks/            # Jupyter Notebooks
-│── scripts/              # Python scripts
-│── models/               # Saved ML models
-│── reports/              # Analysis reports
-│── README.md             # Project documentation
-│── requirements.txt      # Dependencies
-```
+## 📂 Dataset Information
+- **Source**: Telco Customer Churn Dataset
+- **Size**: 7,043 records
+- **Features**: Customer demographics, account information, and usage details
 
-## 🛠️ Technologies Used
-- **Python** 🐍
-- **Pandas & NumPy** for data manipulation 📊
-- **Scikit-learn** for machine learning 🤖
-- **Seaborn & Matplotlib** for visualization 📈
-- **Imbalanced-learn (SMOTE)** for handling class imbalance ⚖️
+## 🛠️ Preprocessing Steps
+- **Data Cleaning**: Handled missing values, converted data types
+- **Feature Engineering**: Created meaningful features
+- **Encoding**: Transformed categorical variables
 
-## 🔍 Key Features
-✅ Data cleaning and preprocessing (handling missing values, encoding, scaling)  
-✅ Feature engineering & selection  
-✅ Machine learning model training (Random Forest Classifier)  
-✅ Model evaluation (Classification Report, ROC-AUC, Confusion Matrix)  
-✅ Feature importance analysis  
-✅ Data visualization (churn trends, feature distributions)  
+## 📊 **Results and Insights**  
 
-## 📊 Results & Insights
-### 🎯 Model Performance
-- **AUC Score:** `XX.XX` (To be updated)
-- **Precision & Recall:** `XX.XX` (To be updated)
+### **Model Performance Metrics**  
+✅ **AUC Score**: **0.8186** – Indicates strong discriminative ability between churn and non-churn customers.  
+✅ **Accuracy**: **78%** – The model correctly classifies 78% of the customers.  
 
-📌 **Feature Importance**
-```
-1️⃣ Tenure
-2️⃣ MonthlyCharges
-3️⃣ TotalCharges
-4️⃣ Contract Type
-...
-```
+| Metric          | Class 0 (Non-Churn) | Class 1 (Churn) |
+|----------------|--------------------|----------------|
+| **Precision**  | **0.84**            | **0.59**       |
+| **Recall**     | **0.87**            | **0.54**       |
+| **F1-Score**   | **0.85**            | **0.56**       |
 
-## 📦 Installation & Setup
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/Shrungal-DSAI/Customer-Churn-Prediction.git
-   cd Customer-Churn-Prediction
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the project:
-   ```bash
-   python scripts/churn_prediction.py
-   ```
+### **Key Observations**  
+📌 **Good performance for non-churn customers**: High precision (84%) and recall (87%) indicate strong classification of customers who are likely to stay.  
+📌 **Churn detection needs improvement**: Lower precision (59%) and recall (54%) suggest some misclassifications of actual churners.  
+📌 **Top 3 Important Features**:  
+   - **TotalCharges** (Most influential)  
+   - **Tenure**  
+   - **MonthlyCharges**  
 
-## 📜 License
-This project is licensed under the **MIT License**. Feel free to use and modify it! 📄
+### **Next Steps for Improvement** 🚀  
+🔹 **Handle Class Imbalance**: Apply SMOTE, oversampling, or class weighting to improve churn prediction.  
+🔹 **Feature Engineering**: Explore additional derived features and interactions.  
+🔹 **Hyperparameter Tuning**: Use GridSearchCV or RandomizedSearchCV to optimize the model.  
+🔹 **Try Different Models**: Experiment with Random Forest, XGBoost, or Neural Networks for enhanced performance.  
 
-## 📩 Contact & Contributions
-Want to contribute or have suggestions? 🤝
-- **GitHub Issues**: [Open an issue](https://github.com/Shrungal-DSAI/Customer-Churn-Prediction/issues)
-- **Email**: [shrungalkulkarni30@gmail.com](mailto:shrungalkulkarni30@gmail.com)
+## 📌 Conclusion
+This project provides insights into customer churn patterns and helps businesses take proactive measures to retain customers. Further improvements in feature engineering and model optimization can enhance predictive accuracy.
 
+---
+
+📧 **Contact:** [shrungalkulkarni30@gmail.com](mailto:shrungalkulkarni30@gmail.com)
 🚀 Happy Coding! 🔥

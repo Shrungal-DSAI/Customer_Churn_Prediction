@@ -1,6 +1,6 @@
 # 📊 Customer Churn Prediction
 
-![Churn Prediction](https://user-images.githubusercontent.com/1234567/churn-banner.png)
+
 
 ## 🚀 Project Overview
 Customer churn is a major concern for businesses. This project aims to predict customer churn using machine learning techniques, helping companies retain valuable customers.

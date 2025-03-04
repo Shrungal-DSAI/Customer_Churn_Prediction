@@ -1,65 +1,72 @@
-📌 Customer Churn Prediction
+# 📊 Customer Churn Prediction
 
-📖 Overview
+![Churn Prediction](https://user-images.githubusercontent.com/1234567/churn-banner.png)
 
-This project aims to predict customer churn using machine learning techniques. It analyzes customer behavior and identifies key factors influencing churn.
+## 🚀 Project Overview
+Customer churn is a major concern for businesses. This project aims to predict customer churn using machine learning techniques, helping companies retain valuable customers.
 
-🔍 Problem Statement
-
-Businesses face challenges in retaining customers. Understanding why customers leave (churn) helps in implementing strategies to enhance customer retention.
-
-🛠️ Technologies Used
-
-Python
-Pandas, NumPy
-Scikit-learn
-Matplotlib, Seaborn
-Jupyter Notebook
-
-📂 Project Structure
-
+## 📂 Project Structure
+```
 Customer_Churn_Prediction/
-│── data/
-│   ├── customer_data.csv   # Dataset used for model training
-│── notebooks/
-│   ├── Customerchurnprediction.ipynb   # Jupyter Notebook for analysis & modeling
-│── requirements.txt   # Required Python packages
-│── README.md   # Project documentation
-│── .gitignore   # Ignore unnecessary files
-📊 Dataset
-The dataset contains customer attributes such as:
-Demographics
-Subscription details
-Usage behavior
-Customer support interactions
+│── data/                 # Dataset folder
+│── notebooks/            # Jupyter Notebooks
+│── scripts/              # Python scripts
+│── models/               # Saved ML models
+│── reports/              # Analysis reports
+│── README.md             # Project documentation
+│── requirements.txt      # Dependencies
+```
 
-🏆 Key Features
+## 🛠️ Technologies Used
+- **Python** 🐍
+- **Pandas & NumPy** for data manipulation 📊
+- **Scikit-learn** for machine learning 🤖
+- **Seaborn & Matplotlib** for visualization 📈
+- **Imbalanced-learn (SMOTE)** for handling class imbalance ⚖️
 
-✅ Exploratory Data Analysis (EDA)
-✅ Data Cleaning & Preprocessing
-✅ Machine Learning Model Training
-✅ Model Evaluation & Metrics
-✅ Insights & Recommendations
+## 🔍 Key Features
+✅ Data cleaning and preprocessing (handling missing values, encoding, scaling)  
+✅ Feature engineering & selection  
+✅ Machine learning model training (Random Forest Classifier)  
+✅ Model evaluation (Classification Report, ROC-AUC, Confusion Matrix)  
+✅ Feature importance analysis  
+✅ Data visualization (churn trends, feature distributions)  
 
-🚀 How to Run
+## 📊 Results & Insights
+### 🎯 Model Performance
+- **AUC Score:** `XX.XX` (To be updated)
+- **Precision & Recall:** `XX.XX` (To be updated)
 
-Clone the repository:
+📌 **Feature Importance**
+```
+1️⃣ Tenure
+2️⃣ MonthlyCharges
+3️⃣ TotalCharges
+4️⃣ Contract Type
+...
+```
 
-git clone https://github.com/Shrungal-DSAI/Customer-Churn-Prediction.git
+## 📦 Installation & Setup
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Shrungal-DSAI/Customer-Churn-Prediction.git
+   cd Customer-Churn-Prediction
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the project:
+   ```bash
+   python scripts/churn_prediction.py
+   ```
 
-Install dependencies:
+## 📜 License
+This project is licensed under the **MIT License**. Feel free to use and modify it! 📄
 
-pip install -r requirements.txt
+## 📩 Contact & Contributions
+Want to contribute or have suggestions? 🤝
+- **GitHub Issues**: [Open an issue](https://github.com/Shrungal-DSAI/Customer-Churn-Prediction/issues)
+- **Email**: [shrungalkulkarni30@gmail.com](mailto:shrungalkulkarni30@gmail.com)
 
-Open and run the Jupyter Notebook:
-
-jupyter notebook
-📈 Results
-
-Achieved X% accuracy using [Best Model].
-Identified top factors influencing churn.
-🤝 Contributing
-Feel free to contribute by raising issues or submitting pull requests!
-
-📜 License
-MIT License
+🚀 Happy Coding! 🔥

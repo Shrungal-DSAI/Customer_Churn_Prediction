@@ -1,5 +1,4 @@
 📌 Customer Churn Prediction
-(Optional: Add a relevant image or logo here)
 
 📖 Overview
 This project aims to predict customer churn using machine learning techniques. It analyzes customer behavior and identifies key factors influencing churn.

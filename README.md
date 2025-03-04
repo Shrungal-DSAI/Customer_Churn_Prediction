@@ -17,9 +17,7 @@ Matplotlib, Seaborn
 Jupyter Notebook
 
 📂 Project Structure
-bash
-Copy
-Edit
+
 Customer_Churn_Prediction/
 │── data/
 │   ├── customer_data.csv   # Dataset used for model training
@@ -46,21 +44,18 @@ Customer support interactions
 🚀 How to Run
 
 Clone the repository:
-sh
-Copy
-Edit
+
 git clone https://github.com/Shrungal-DSAI/Customer-Churn-Prediction.git
+
 Install dependencies:
-sh
-Copy
-Edit
+
 pip install -r requirements.txt
+
 Open and run the Jupyter Notebook:
-sh
-Copy
-Edit
+
 jupyter notebook
 📈 Results
+
 Achieved X% accuracy using [Best Model].
 Identified top factors influencing churn.
 🤝 Contributing
